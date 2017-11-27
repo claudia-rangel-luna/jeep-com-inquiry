@@ -1,0 +1,43 @@
+.content {
+	background-color: black;
+}
+.main-content {
+	max-width: 1450px;
+	margin: auto;
+
+}
+
+.blue-book {
+	max-width: 800px;
+}
+.nav-black {
+	background-color: black;
+	color: white;
+}
+.navbar-inverse .navbar-toggler-icon {
+
+		  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+.navbar-bottom {
+	max-width: 1450px;
+	margin: auto;
+	background-color: black;
+
+}
+.navbar-brand img {
+	height:37px; 
+	width:78px;
+}
+.body {
+	background-color: black;
+}
+.wrapper {
+        display: flex;
+}
+
+#sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        height: auto;
+}
