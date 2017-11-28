@@ -25,12 +25,17 @@
 	background-color: black;
 
 }
+.nav-link:hover {
+  background-color: lightgrey;
+  color:white;
+  font-weight: bolder;
+}
 .navbar-brand img {
 	height:37px; 
 	width:78px;
 }
-.body {
-	background-color: black;
+body {
+	background-color: grey;
 }
 .wrapper {
         display: flex;
@@ -39,5 +44,45 @@
 #sidebar {
         min-width: 250px;
         max-width: 250px;
-        height: auto;
+        height: 100vh;
 }
+#sidebarRight {
+	   min-width: 250px;
+        max-width: 250px;
+        height: 100vh;
+}
+.main-info {
+  display: flex;
+}
+.left-rail, .right-rail {
+  flex:1;
+  text-align:  center;
+  background-color: lightgrey;
+
+  }
+  .list-info li {
+    list-style-type: none;
+    padding-top: 10px;
+  }
+.link-info li {
+    list-style-type: none;
+    padding-top: 10px;
+
+  }
+.link-info a, .list-info a {
+  color: black;
+  font-size: 18px;
+} 
+.link-info a:hover, .list-info a:hover {
+  color: white;
+} 
+
+.footer-paragraphs {
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        color: #bfbfbf;
+        font-weight: bold;
+        padding: 10px 60px;
+        background-color: grey;
+       
+    }
