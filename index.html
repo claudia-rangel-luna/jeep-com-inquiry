@@ -78,6 +78,7 @@
                 <li><a href="#">Site Map</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Español</a></li>
+                <li class="mobility"><a href="#"><img src="Jeep_files/AutoMobility-New-Logo.png"></a></li>
             </ul>
         </aside>
         <main class="main-content-2 pr-5 pl-5">
@@ -137,8 +138,38 @@
                     <label for="exampleFormControlTextarea1">Description </label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                    <div>
+                        <img id="vehicle-image" src="jeep-images/Wrangler-red.jpg">
+                        <form class="selector">
+                            Models
+                            <input list="models" name="model"> 
+                           
+                            <datalist id="models">
+                                <option value="jeep-images/Wrangler-red.jpg" selected></option>
+                                <option value="jeep-images/Patriot-black.jpg"></option>
+                                <option value="jeep-images/Renegade-white.jpg"></option>
+                                <option value="jeep-images/Wrangler-Unlimited.jpg"></option>
+                                <option value="jeep-images/Cherokee-sand.jpg"></option>
+                                <option value="jeep-images/Compass-white.jpg"></option>
+                                <option value="jeep-images/Grand-Cherokee-black.jpg"></option>
+                            </datalist>
+                            Colors
+                            <input list="colors" name="color">
+
+                            <datalist id="colors">
+                                <option value="white" selected></option>
+                                <option value="red" selected></option>
+                                <option value="sand" selected></option>
+                                <option value="black" selected></option>
+                            </datalist>
+                        </form>
+                     <div>  <br>
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div> 
+               
             </form>
+
         </main>
         <aside class="right-rail">
             <h1>Additional Information</h1>
@@ -158,6 +189,7 @@
                 <p>FCA strives to ensure that its website is accessible to individuals with disabilities. Should you encounter an issue accessing any content on www.jeep.com, please contact our Customer Service Team at www.jeep.com/webselfservice/ or 1-877-IAMJEEP, for further assistance or to report a problem. Access to www.jeep.com is subject to FCA’s Privacy Policy and Terms of Use.</p>
             </div>
     </footer>
+    <script type="text/javascript" src="inquiry.js"onchange ="updateimage ( model.value, color.value)> </script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </body>
 

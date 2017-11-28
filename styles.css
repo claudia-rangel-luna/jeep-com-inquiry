@@ -76,6 +76,11 @@ body {
 .link-info a:hover, .list-info a:hover {
   color: white;
 } 
+.mobility img {
+  width: 150px;
+  height: 50px;
+}
+
 
 .footer-paragraphs {
         font-size: 12px;
